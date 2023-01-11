@@ -1,0 +1,2 @@
+# uin23ak2_resource_layout_HAUGLAND
+Utvilking i interaktive nettsteder
