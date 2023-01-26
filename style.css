@@ -1,0 +1,50 @@
+body {
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+  }
+  .boks{
+    background: #fff;
+    max-width: 45%;
+    margin: 25px auto;
+    padding: 25px;
+  }
+  .mineFaner {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 25px;
+  }
+  
+  .mineFaner input[type="radio"] {
+    display: none;
+  }
+  
+  .mineFaner label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+  }
+  
+  .mineFaner .fane {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 1;
+    display: none;
+  }
+  
+  .mineFaner .fane h2{
+    font-size: large;
+  }
+  
+  .mineFaner input[type="radio"]:checked + label + .fane {
+    display: block;
+  }
+  
+  .mineFaner input[type="radio"]:checked + label {
+    background-color: white;
+  }
+  
+  
+  
